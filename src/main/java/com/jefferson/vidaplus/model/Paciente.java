@@ -34,6 +34,6 @@ public class Paciente {
     private List<Agendamento> agendamentos;
 
     @OneToMany(mappedBy = "paciente")
-    private List<Notificacao> notificacaos;
+    private List<Notificacao> notificacoes;
 
 }

@@ -1,7 +1,7 @@
 package com.jefferson.vidaplus.service;
 
-import com.jefferson.vidaplus.dto.UsuarioRequest;
-import com.jefferson.vidaplus.dto.UsuarioResponse;
+import com.jefferson.vidaplus.dto.request.UsuarioRequest;
+import com.jefferson.vidaplus.dto.response.UsuarioResponse;
 import com.jefferson.vidaplus.model.Perfil;
 import com.jefferson.vidaplus.model.Usuario;
 import com.jefferson.vidaplus.repository.UsuarioRepository;

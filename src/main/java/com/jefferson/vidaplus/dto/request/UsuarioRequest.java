@@ -1,4 +1,4 @@
-package com.jefferson.vidaplus.dto;
+package com.jefferson.vidaplus.dto.request;
 
 public record UsuarioRequest(
         String nome,

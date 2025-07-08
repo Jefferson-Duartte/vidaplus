@@ -1,4 +1,4 @@
-package com.jefferson.vidaplus.dto;
+package com.jefferson.vidaplus.dto.response;
 
 public record UsuarioResponse(Long id,
                               String nome,

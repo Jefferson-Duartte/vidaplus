@@ -1,12 +1,11 @@
 package com.jefferson.vidaplus.controller;
 
-import com.jefferson.vidaplus.dto.LoginRequest;
-import com.jefferson.vidaplus.dto.TokenResponse;
-import com.jefferson.vidaplus.dto.UsuarioRequest;
-import com.jefferson.vidaplus.dto.UsuarioResponse;
+import com.jefferson.vidaplus.dto.request.LoginRequest;
+import com.jefferson.vidaplus.dto.response.TokenResponse;
+import com.jefferson.vidaplus.dto.request.UsuarioRequest;
+import com.jefferson.vidaplus.dto.response.UsuarioResponse;
 import com.jefferson.vidaplus.security.TokenService;
 import com.jefferson.vidaplus.service.UsuarioService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
