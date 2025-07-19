@@ -19,11 +19,19 @@ public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(nullable = false, length = 50)
     private String nomeCompleto;
+
+    @Column(unique = true, nullable = false, length = 11)
     private String cpf;
     private LocalDate dataNascimento;
     private String sexo;
+
+    @Column(unique = true, nullable = false, length = 15)
     private String telefone;
+
+    @Column(unique = true)
     private String email;
     private String endereco;
 
