@@ -37,5 +37,16 @@ public class PacienteService {
         return mapper.map(paciente, PacienteResponse.class);
     }
 
+    public PacienteResponse update(Long id, PacienteRequest pacienteDTO) {
+        Paciente paciente = repository.findById(id).orElseThrow(() -> new EntityNotFoundException("Paciente não encontrado!"));
+        mapper.map(pacienteDTO, paciente);
+        repository.save(paciente);
+        return mapper.map(paciente, PacienteResponse.class);
+    }
+
+    public void delete(Long id) {
+        repository.deleteById(id);
+    }
+
 
 }
