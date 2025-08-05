@@ -1,6 +1,5 @@
 package com.jefferson.vidaplus.exceptions;
 
-import com.jefferson.vidaplus.exceptions.ExceptionResponse;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
